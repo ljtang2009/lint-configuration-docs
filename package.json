@@ -7,6 +7,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "cm": "git-cz",
+    "lint:markdown": "markdownlint-cli2",
     "lint:cspell": "cspell lint --show-context  --show-suggestions ."
   },
   "keywords": [],
@@ -20,6 +21,8 @@
     "cspell": "^8.7.0",
     "cz-git": "^1.9.1",
     "husky": "^9.0.11",
+    "lodash": "^4.17.21",
+    "markdownlint-cli2": "^0.13.0",
     "only-allow": "^1.2.1",
     "prettier": "^3.2.5"
   }
