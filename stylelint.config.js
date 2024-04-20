@@ -6,6 +6,6 @@ export default {
   ..._.merge(
     stylelint.buildIn.default,
     stylelint.order.default,
-    stylelint.prettier.default
+    stylelint.prettier.default,
   ),
 };
