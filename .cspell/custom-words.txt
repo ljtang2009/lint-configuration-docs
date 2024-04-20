@@ -1,9 +1,11 @@
+astro
 codecov
 desm
 Gitee
 iife
 lcov
 redeclaration
+tsconfigs
 tseslint
 unspaced
 vitepress
