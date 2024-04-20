@@ -6,7 +6,8 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
-    "cm": "git-cz"
+    "cm": "git-cz",
+    "lint:cspell": "cspell lint --show-context  --show-suggestions ."
   },
   "keywords": [],
   "author": "Logan Tang <ho_ho_gl@hotmail.com>",
@@ -16,6 +17,7 @@
     "@commitlint/config-conventional": "^19.1.0",
     "@ljtang2009/lint-configuration": "workspace:*",
     "commitizen": "^4.3.0",
+    "cspell": "^8.7.0",
     "cz-git": "^1.9.1",
     "husky": "^9.0.11",
     "only-allow": "^1.2.1",
